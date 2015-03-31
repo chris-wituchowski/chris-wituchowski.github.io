@@ -1,0 +1,42 @@
+#menu {
+  position: absolute;
+  height: 1000px;
+  width: 560px;
+  border-radius: 10px;
+  background-color: #cc0000;
+}
+#about {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: #0000ff;
+  left: 10px;
+}
+#resume {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: #0000ff;
+  left: 120px;
+}
+#work {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: #0000ff;
+  left: 230px;
+}
+#play {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: #0000ff;
+  left: 340px;
+}
+#contact {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: #0000ff;
+  left: 450px;
+}
