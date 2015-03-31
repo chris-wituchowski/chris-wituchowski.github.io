@@ -7,7 +7,7 @@ $(document).ready(function() {
         function() {
           $(this).css("background-color", "#FFFFFF");
       });
-      $('#resume').hover(function() {
+      $('#info').hover(function() {
         $(this).css("background-color", "#00cc00");
         console.log("resume hover");
       },
