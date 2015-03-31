@@ -1,42 +1,74 @@
 #menu {
   position: absolute;
-  height: 1000px;
+  height: 90px;
   width: 560px;
-  border-radius: 10px;
-  background-color: #cc0000;
+  border-radius: 0px;
+  background-color: #CCFFCC;
 }
 #about {
   position: absolute;
   height: 50px;
   width: 100px;
-  background-color: #0000ff;
+  border: 5px solid green;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #FFFFFF;
   left: 10px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 50px;
 }
 #resume {
   position: absolute;
   height: 50px;
   width: 100px;
-  background-color: #0000ff;
+  border: 5px solid green;
+  background-color: #FFFFFF;
   left: 120px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 50px;
 }
 #work {
   position: absolute;
   height: 50px;
   width: 100px;
-  background-color: #0000ff;
+  border: 5px solid green;
+  background-color: #FFFFFF;
   left: 230px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 50px;
+
 }
 #play {
   position: absolute;
   height: 50px;
   width: 100px;
-  background-color: #0000ff;
+  border: 5px solid green;
+  background-color: #FFFFFF;
   left: 340px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 50px;
+
 }
 #contact {
   position: absolute;
   height: 50px;
   width: 100px;
-  background-color: #0000ff;
+  border: 5px solid green;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #FFFFFF;
   left: 450px;
+  top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 50px;
+
 }
