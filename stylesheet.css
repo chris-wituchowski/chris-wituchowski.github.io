@@ -1,11 +1,11 @@
 #menu {
   position: absolute;
-  height: 90px;
-  width: 560px;
+  height: 100px;
+  width: 570px;
   border-radius: 0px;
   background-color: #CCFFCC;
 }
-#about {
+#aboutbutton {
   position: absolute;
   height: 50px;
   width: 100px;
@@ -15,11 +15,11 @@
   background-color: #FFFFFF;
   left: 10px;
   top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   text-align: center;
   line-height: 50px;
 }
-#info {
+#infobutton {
   position: absolute;
   height: 50px;
   width: 100px;
@@ -27,11 +27,11 @@
   background-color: #FFFFFF;
   left: 120px;
   top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   text-align: center;
   line-height: 50px;
 }
-#work {
+#workbutton {
   position: absolute;
   height: 50px;
   width: 100px;
@@ -39,12 +39,12 @@
   background-color: #FFFFFF;
   left: 230px;
   top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   text-align: center;
   line-height: 50px;
 
 }
-#play {
+#playbutton {
   position: absolute;
   height: 50px;
   width: 100px;
@@ -52,12 +52,12 @@
   background-color: #FFFFFF;
   left: 340px;
   top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   text-align: center;
   line-height: 50px;
 
 }
-#contact {
+#contactbutton {
   position: absolute;
   height: 50px;
   width: 100px;
@@ -67,8 +67,21 @@
   background-color: #FFFFFF;
   left: 450px;
   top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   text-align: center;
   line-height: 50px;
 
+}
+#aboutcontent {
+  position: absolute;
+  left: 20px;
+  top: 150px;
+  font-family: Helvetica;
+}
+#contactcontent {
+  position: absolute;
+  left: 20px;
+  top: 150px;
+  font-family: Helvetica;
+  display: none;
 }
