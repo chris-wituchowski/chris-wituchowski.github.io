@@ -1,87 +1,41 @@
-#menu {
-  position: absolute;
-  height: 100px;
-  width: 570px;
-  border-radius: 0px;
+.nav{
   background-color: #CCFFCC;
+  width: 758px;
 }
-#aboutbutton {
-  position: absolute;
-  height: 50px;
-  width: 100px;
-  border: 5px solid green;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-  background-color: #FFFFFF;
-  left: 10px;
-  top: 20px;
-  font-family: Helvetica;
-  text-align: center;
-  line-height: 50px;
-}
-#infobutton {
-  position: absolute;
-  height: 50px;
-  width: 100px;
-  border: 5px solid green;
-  background-color: #FFFFFF;
-  left: 120px;
-  top: 20px;
-  font-family: Helvetica;
-  text-align: center;
-  line-height: 50px;
-}
-#workbutton {
-  position: absolute;
-  height: 50px;
-  width: 100px;
-  border: 5px solid green;
-  background-color: #FFFFFF;
-  left: 230px;
-  top: 20px;
-  font-family: Helvetica;
-  text-align: center;
-  line-height: 50px;
 
-}
-#playbutton {
-  position: absolute;
+.nav-button {
+  display: inline-block;
+  width: 150px;
   height: 50px;
-  width: 100px;
-  border: 5px solid green;
-  background-color: #FFFFFF;
-  left: 340px;
-  top: 20px;
-  font-family: Helvetica;
+  font-size: 25px;
+  font: helvetica, sans-serif;
   text-align: center;
-  line-height: 50px;
+}
 
+.nav-button:focus {
+  background-color: #CCDDCC;
 }
-#contactbutton {
-  position: absolute;
-  height: 50px;
-  width: 100px;
-  border: 5px solid green;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-  background-color: #FFFFFF;
-  left: 450px;
-  top: 20px;
-  font-family: Helvetica;
-  text-align: center;
-  line-height: 50px;
 
+h1 {
+  font-size: 15px;
+  font: helvetica, sans-serif;
 }
-#aboutcontent {
-  position: absolute;
-  left: 20px;
-  top: 150px;
-  font-family: Helvetica;
+
+h2 {
+  font-size: 12px;
+  font: helvetica, sans-serif;
 }
-#contactcontent {
-  position: absolute;
-  left: 20px;
-  top: 150px;
-  font-family: Helvetica;
+
+article {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 15px;
+  font: helvetica, sans-serif;
+}
+
+.hidden {
   display: none;
 }

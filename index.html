@@ -5,40 +5,53 @@
   <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
   <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script type='text/javascript' src='script.js'></script>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-	<div id="menu">
-		<div id="aboutbutton">about</div>
-		<div id="infobutton">info</div>
-		<div id="workbutton">work</div>
-		<div id="playbutton">misc</div>
-		<div id="contactbutton">contact</div>
-  </div>
-  <div id="aboutcontent">
-    Hello!<br>
-    <br>
-    Welcome to the website of Chris Wituchowski!<br>
-    <br>
-    Please navigate to the tabs above to view my resume, examples of my work, personal life stuff, and contact info!<br>
-    <br>
-    This website is a work in progress!<br>
-    <br>
-    Thanks for visiting!
-  </div>
-  <div id="infocontent">
-  </div>
-  <div id="workcontent">
-  </div>
-  <div id="playcontent">
-  </div>
-  <div id="contactcontent">
-    e-mail: <a href="mailto:c.wituchowski@gmail.com">c.wituchowski@gmail.com</a><br>
-    web: <a href="woogie.us">woogie.us</a><br>
-    <a href="http://www.linkedin.com/pub/chris-wituchowski/2a/37/b31" style="text-decoration:none;"><span style="font: 80% Helvetica,sans-serif; color:#0783B6;">
-    <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Chris' LinkedIn profile" style="vertical-align:middle;" border="0">
-    &nbsp;View Chris Wituchowski's profile</span></a>
-  </div>
+<nav id="main-nav">
+	<ul class="nav nav-pills">
+		<li><a class="nav-button" id="about-button">about</a></li>
+    <li><a class="nav-button" id="resume-button">resume</a></li>
+    <li><a class="nav-button" id="work-button">examples</a></li>
+    <li><a class="nav-button" id="personal-button">personal</a></li>
+    <li><a class="nav-button" id="contact-button">contact</a></li>
+  </ul>
+</nav>
+  <main id="content-container">
+    <article id="about-content">
+      <p>
+        Hello!<br>
+        <br>
+        Welcome to the website of Chris Wituchowski!<br>
+        <br>
+        Please navigate to the tabs above to view my resume, examples of my work, personal life stuff, and contact info!<br>
+        <br>
+        This website is a work in progress!<br>
+        <br>
+        Thanks for visiting!
+      </p>
+    </article>
+    <article id="resume-content">
+      <h1>Seattle Safety, LLC - November 2011 to Present</h1>
+      <br>
+      <h2>Engineering Analyst - Control Systems Department</h2>
+      <p>
+        As a member of the Control Systems department, I worked on a variety<br>
+        of programming, electrical, and operations projects. Below are some<br>
+        examples of my work in the department. Enjoy!<br>
+      </p>
+    </article>
+    <article id="contact-content">
+      <h1>contact info</h1>
+      <p>
+        e-mail: <a href="mailto:c.wituchowski@gmail.com">c.wituchowski@gmail.com</a><br>
+        web: <a href="woogie.us">woogie.us</a><br>
+        <a href="http://www.linkedin.com/pub/chris-wituchowski/2a/37/b31" style="text-decoration:none;"><span style="font: 80% Helvetica,sans-serif; color:#0783B6;">
+          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Chris' LinkedIn profile" style="vertical-align:middle;" border="0">
+        &nbsp;View Chris Wituchowski's profile</span></a>
+      </p>
+    </article>
 
 </body>
 
