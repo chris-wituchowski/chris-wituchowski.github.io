@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#resume-content').hide();
   $('#contact-content').hide();
-
+  $('#personal-content').hide();
   console.log("ready");
   var previousContent = "about";
   function showHide(navDescriptor) {
@@ -19,6 +19,9 @@ $(document).ready(function() {
       });
       $('#resume-button').click(function() {
         showHide('resume');
+      });
+      $('#personal-button').click(function() {
+        showHide('personal');
       });
       $('#contact-button').click(function() {
         showHide('contact');
