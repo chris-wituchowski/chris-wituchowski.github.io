@@ -6,9 +6,9 @@ $(document).ready(function() {
   var previousContent = "about";
   function showHide(navDescriptor) {
     if (previousContent != (navDescriptor)) {
-      //$('#' + navDescriptor + '-content').removeClass("hidden");
+      $('#' + navDescriptor + '-content').addClass("active");
       $('#' + navDescriptor + '-content').show("fast");
-      //$('#' + previousContent + '-content').addClass("hidden");
+      $('#' + previousContent + '-content').removeClass("active");
       $('#' + previousContent + '-content').hide("fast");
       previousContent = navDescriptor;
       console.log("test " + navDescriptor);

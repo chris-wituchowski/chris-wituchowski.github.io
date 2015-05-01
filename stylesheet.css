@@ -39,3 +39,7 @@ p {
 .hidden {
   display: none;
 }
+
+li:active {
+  background-color: white;
+}
